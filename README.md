@@ -5,7 +5,7 @@ class ReadMe:
         self.name = 'Stoica Tedy'
         self.education = {
             'college': 'In Romania',
-            'programming': ['Full Stack Software Development'],
+            'programming': ['Self Learning'],
         }
         self.employment = None
 
@@ -22,6 +22,7 @@ class ReadMe:
             return """
             I am eager to collaborate with {teams} on {projects}.
             """.format(teams=goal[0], projects='software development')
+
         else:
             return """
             Hello
