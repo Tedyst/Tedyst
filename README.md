@@ -4,8 +4,8 @@ class ReadMe:
         self.username = username
         self.name = 'Stoica Tedy'
         self.education = {
-            'college': 'In Romania',
-            'programming': ['Self Learning'],
+            'college': 'Costache Negruzzi National College',
+            'programming': ['Self Learning', 'Alexandru Ioan Cuza University'],
         }
         self.employment = None
 
@@ -14,7 +14,7 @@ class ReadMe:
 
         if now <= today:
             return """
-            I am still learning to go to university
+            I am attending the Alexandru Ioan Cuza University from Iasi, Romania.
             """
 
         elif now > today:
