@@ -1,6 +1,6 @@
 ```python
 class ReadMe:
-    def __init__(self, username="Tedyst", year=2021):
+    def __init__(self, username="Tedyst", year=2022):
         self.username = username
         self.name = 'Stoica Tedy'
         self.education = {
@@ -9,7 +9,7 @@ class ReadMe:
         }
         self.employment = None
 
-    def doing(self, now=2021):
+    def doing(self, now=2022):
         today = self.year
 
         if now <= today:
@@ -32,5 +32,5 @@ class ReadMe:
         opportunity = self.employment
         opportunity[role] = [organization, location]
 
-me = ReadMe(2021)
+me = ReadMe(year=2022)
 ```
